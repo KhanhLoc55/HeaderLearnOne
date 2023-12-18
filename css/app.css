@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 46px;
+}
+.header-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 120px;
+}
+.header-top {
+  padding: 36px 0;
+  display: flex;
+  align-items: center;
+}
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.header-buttons .btn {
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.2px;
+  padding: 15px 8px;
+}
+.header-buttons .btn-blue {
+  background-color: #2981ba;
+  color: white;
+  border-radius: 4px;
+}
+.header-buttons .btn-white {
+  color: #000;
+}
+.header .menu {
+  padding-left: 56px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 0 36px;
+  list-style-type: none;
+}
+.header .menu-Texthome {
+  font-weight: 700;
+}
+.header .menu-link {
+  color: inherit;
+}
+
+.info-container {
+  padding: 0 120px;
+}
+.info .content {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-content {
+  width: 40%;
+}
+.info-content .info-heading {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 120%; /* 69.6px */
+  letter-spacing: 0.725px;
+  margin-bottom: 24px;
+}
+.info-content .info-heading span {
+  color: #2981ba;
+}
+.info-content .info-desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.56);
+  margin-bottom: 44px;
+}
+.info-content .info-actions {
+  display: flex;
+  align-items: center;
+  gap: 0 56px;
+}
+.info-content .info-actions .btn {
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: #2981ba;
+  box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: 0.45px;
+}
+.info-content .info-actions .watch {
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+}
+.info-content .info-actions .watch span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.3px;
+}
+.info-BrandsConnect {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-BrandsConnect .BrandsConnect-left {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
+.info-BrandsConnect .BrandsConnect-left .vetor {
+  height: 80px;
+  border: 3px solid #2981ba;
+}
+.info-BrandsConnect .BrandsConnect-left .text .text-one {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+  letter-spacing: 0.4px;
+}
+.info-BrandsConnect .BrandsConnect-left .text .text-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 31.2px */
+  letter-spacing: 0.3px;
+  color: rgba(0, 0, 0, 0.56);
+}
+.info-BrandsConnect .BrandsConnect-right .logo-img {
+  height: 32px;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,102 @@
+.info {
+  &-container {
+    padding: 0 120px;
+  }
+  .content {
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-content {
+    width: 40%;
+    .info-heading {
+      font-size: 58px;
+      font-weight: 700;
+      line-height: 120%; /* 69.6px */
+      letter-spacing: 0.725px;
+      span {
+        color: $primary-color;
+      }
+      margin-bottom: 24px;
+    }
+    .info-desc {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 22.4px */
+      letter-spacing: 0.2px;
+      color: rgba(0, 0, 0, 0.56);
+      margin-bottom: 44px;
+    }
+    .info-actions {
+      display: flex;
+      align-items: center;
+      gap: 0 56px;
+      .btn {
+        padding: 16px 20px;
+        border-radius: 16px;
+        background: #2981ba;
+        box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 0.25);
+
+        color: #fff;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 43.2px */
+        letter-spacing: 0.45px;
+      }
+      .watch {
+        display: flex;
+        align-items: center;
+        gap: 0 12px;
+        span {
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 120%; /* 28.8px */
+          letter-spacing: 0.3px;
+        }
+      }
+    }
+  }
+  &-image {
+  }
+  &-BrandsConnect {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .BrandsConnect-left {
+      display: flex;
+      align-items: center;
+      gap: 0 16px;
+      .vetor {
+        height: 80px;
+        border: 3px solid $primary-color;
+      }
+      .text {
+        .text-one {
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 130%; /* 41.6px */
+          letter-spacing: 0.4px;
+        }
+        .text-title {
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; /* 31.2px */
+          letter-spacing: 0.3px;
+          color: rgba(0, 0, 0, 0.56);
+        }
+      }
+    }
+    .BrandsConnect-right {
+      .logo-img {
+        height: 32px;
+      }
+    }
+  }
+}
